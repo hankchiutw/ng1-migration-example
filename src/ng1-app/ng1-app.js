@@ -5,7 +5,7 @@ class MainController {
   static $inject = ['$scope'];
 
   constructor($scope) {
-    $scope.title = 'Here is an AngularJS App';
+    $scope.title = 'Here is an lazy-loaded AngularJS App';
   }
 }
 
